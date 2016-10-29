@@ -6,7 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 
 var articles= {
-    article-one: { 
+    'article-one': { 
         title:"House of Cats | Pragya",
         heading:"Cat Parade",
         date:"October 29th, 2016.",
@@ -14,7 +14,7 @@ var articles= {
         `<p>The cat parade starts at 5 am tomorrow. People of all nationalities are invited. All cat owners are encouraged to bring their cat along with them. The purpose of this parade is to find the healthiest, prettiest and smartest cat through interesting social experiments while giving the cats and their owners a great time. Food and shelter will be provided to upto 1000 kitty cats. Donations for future events of this sort are encouraged. This web page is dedicated to future discussions on this topic amongst all the participating cat-lovers. Have a good day!
         </p>`
     },
-    article-two: {
+    'article-two': {
         title:"House of Cats | Pragya",
         heading:"Cat Parade",
         date:"October 29th, 2016.",
@@ -22,7 +22,7 @@ var articles= {
         `<p>The cat parade starts at 5 am tomorrow. People of all nationalities are invited. All cat owners are encouraged to bring their cat along with them. The purpose of this parade is to find the healthiest, prettiest and smartest cat through interesting social experiments while giving the cats and their owners a great time. Food and shelter will be provided to upto 1000 kitty cats. Donations for future events of this sort are encouraged. This web page is dedicated to future discussions on this topic amongst all the participating cat-lovers. Have a good day!
         </p>`
     },
-    article-three: {
+    'article-three': {
         title:"House of Cats | Pragya",
         heading:"Cat Parade",
         date:"October 29th, 2016.",
