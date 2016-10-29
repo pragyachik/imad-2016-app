@@ -22,20 +22,20 @@ body {
 
 .container{
     max-width:800px;
-    margin:20 auto;
+    margin:0 auto;
     background-color: lightslategrey;
     color:lightgray;
     font-family:sans-serif;
     padding-right: 80px;
     padding-left: 80px;
-    padding-bottom: 200px;
+    padding-bottom: 500px;
 }
 
 h3{
     color:Ivory;
 }
 a{
-    color:lightgrey;
+    color:darkgrey;
 }
 
 .Description{
