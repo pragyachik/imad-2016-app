@@ -28,10 +28,10 @@ function createTemplate(data){
             <link href="/ui/style.css" rel="stylesheet" />
         </head>
         <body bgcolor="#E6E6FA">
+            <div>
+                <a href='/'>Home</a>
+            </div>
             <div class="container">
-                <div>
-                    <a href='/'>Home</a>
-                </div>   
                 <hr>
                 <h3>
                     ${heading}
