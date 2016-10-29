@@ -20,3 +20,19 @@ body {
     height: 200px;
 }
 
+.container{
+    max-width:900px;
+    margin:20 auto;
+    background-color: lightslategrey;
+    color:lightgray;
+    font-family:sans-serif;
+}
+body{
+    background-color:oldlace;
+}
+h3{
+    color:Ivory;
+}
+a{
+    color:lightgrey;
+}
