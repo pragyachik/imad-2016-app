@@ -15,19 +15,19 @@ var articles= {
         </p>`
     },
     'article-two': {
-        title:"House of Cats | Pragya",
-        heading:"Cat Parade",
+        title:"House of Dogs | Pragya",
+        heading:"Dog Fiesta",
         date:"October 29th, 2016.",
         content: 
-        `<p>The cat parade starts at 5 am tomorrow. People of all nationalities are invited. All cat owners are encouraged to bring their cat along with them. The purpose of this parade is to find the healthiest, prettiest and smartest cat through interesting social experiments while giving the cats and their owners a great time. Food and shelter will be provided to upto 1000 kitty cats. Donations for future events of this sort are encouraged. This web page is dedicated to future discussions on this topic amongst all the participating cat-lovers. Have a good day!
+        `<p>The dog parade starts at 5 am tomorrow. People of all nationalities are invited. All dog owners are encouraged to bring their dog along with them. The purpose of this parade is to find the healthiest, prettiest and smartest dog through interesting social experiments while giving the dogs and their owners a great time. Food and shelter will be provided to upto 1000 doggies. Donations for future events of this sort are encouraged. This web page is dedicated to future discussions on this topic amongst all the participating dog-lovers. Have a good day!
         </p>`
     },
     'article-three': {
-        title:"House of Cats | Pragya",
-        heading:"Cat Parade",
+        title:"House of Birds | Pragya",
+        heading:"Bird Paradise",
         date:"October 29th, 2016.",
         content: 
-        `<p>The cat parade starts at 5 am tomorrow. People of all nationalities are invited. All cat owners are encouraged to bring their cat along with them. The purpose of this parade is to find the healthiest, prettiest and smartest cat through interesting social experiments while giving the cats and their owners a great time. Food and shelter will be provided to upto 1000 kitty cats. Donations for future events of this sort are encouraged. This web page is dedicated to future discussions on this topic amongst all the participating cat-lovers. Have a good day!
+        `<p>The bird festival starts at 5 am tomorrow. People of all nationalities are invited. All bird owners are encouraged to bring their bird along with them. The purpose of this parade is to find the healthiest, prettiest and smartest bird through interesting social experiments while giving the birds and their owners a great time. Food and shelter will be provided to upto 1000 little birdies. Donations for future events of this sort are encouraged. This web page is dedicated to future discussions on this topic amongst all the participating bird-lovers. Have a good day!
         </p>`
     }
     
