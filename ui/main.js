@@ -13,9 +13,9 @@ var speed=10;
 var direction=0;
 
 image.onclick = function(){
-    direction++;
     if(direction%2===1) speed=-speed;
     var interval = setInterval(move, 100);
+    direction++;
 };
 
 function move(){
