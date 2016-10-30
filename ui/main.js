@@ -9,12 +9,16 @@ element.innerHTML="This is a Secret Webpage. Feel honoured to have found it";
 var image=document.getElementById("image");
 
 var marginLeft = 0;
-
-function moveRight(){
-    marginLeft = marginLeft+10;
-    image.style.marginLeft=marginLeft+"px";
-}
+var speed=10;
+var direction=0;
 
 image.onclick = function(){
-    var interval = setInterval(moveRight, 100);
+    speed++;
+    var interval = setInterval(move, 100);
 };
+
+function move(){
+    if(speed%2===1) speed=-speed;
+    marginLeft = marginLeft+speed;
+    image.style.marginLeft=marginLeft+"px";
+}
