@@ -13,12 +13,12 @@ var speed=10;
 var direction=0;
 
 image.onclick = function(){
-    speed++;
+    direction++;
     var interval = setInterval(move, 100);
 };
 
 function move(){
-    if(speed%2===1) speed=-speed;
+    if(direction%2===1) speed=-speed;
     marginLeft = marginLeft+speed;
     image.style.marginLeft=marginLeft+"px";
 }
