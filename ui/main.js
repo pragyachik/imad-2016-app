@@ -64,8 +64,8 @@ Button.onclick = function(){
                 for(var i=0; i<names.length; i++){
                     list+='<li>'+names[i]+'</li>';
                 }
-                var ol=document.getElementById('Name List');
-                ol.innerHTML=list;
+                var ul=document.getElementById('Name List');
+                ul.innerHTML=list;
             }
         }
     };
