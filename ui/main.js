@@ -48,7 +48,7 @@ button.onclick=function(){
 
 
 // Submit button
-
+var Button = document.getElementById('submit_btn');
 Button.onclick = function(){
     
     
@@ -72,7 +72,7 @@ Button.onclick = function(){
     
     var submitInput = document.getElementById('name');
     var Name = submitInput.value;
-    var Button = document.getElementById('submit_btn');
+    
     
     request.open('GET', 'http://pragyachik.imad.hasura-app.io/submit-name?name='+Name, true);
     request.send(null);
