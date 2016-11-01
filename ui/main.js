@@ -58,7 +58,7 @@ Button.onclick = function(){
         list+='<li>'+names[i]+'</li>';
     }
     var ol=document.getElementById('Name List');
-    ol.InnerHTML=list;
+    ol.innerHTML=list;
 };
 
 
