@@ -3,7 +3,7 @@ console.log('Loaded!');
 
 // Change text
 var element = document.getElementById("main text");
-element.innerHTML="This is a Secret Website! You Lucky Chump!";
+element.innerHTML="The Animal Illuminati";
 
 //Make the Dinasour move
 var image=document.getElementById("image");
