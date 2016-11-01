@@ -59,7 +59,7 @@ Button.onclick = function(){
     }
     var ol=document.getElementById('Name List');
     ol.InnerHTML=list;
-}
+};
 
 
 
