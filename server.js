@@ -83,7 +83,7 @@ app.get('/:articleName',function(req, res){
 var counter=0;
 app.get('/c',function(req, res){
     counter=counter+1;
-    res.send(counter.toString());
+    res.send('Me');
 });
 
 /*app.get('/article-two',function(req, res){
