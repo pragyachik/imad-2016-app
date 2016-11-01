@@ -74,7 +74,7 @@ Button.onclick = function(){
     var Name = submitInput.value;
     
     
-    request.open('GET', 'http://pragyachik.imad.hasura-app.io/submit-name?name='+Name, true);
+    request.open('GET', 'http://pragyachik.imad.hasura-app.io/submit-name?Name='+Name, true);
     request.send(null);
     
     
