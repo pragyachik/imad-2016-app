@@ -45,3 +45,35 @@ button.onclick=function(){
     request.open('GET', 'http://pragyachik.imad.hasura-app.io/counter', true);
     request.send(null);
 };
+
+
+// Submit button
+var submitInput = document.getElementById('name');
+var Name = submitInput.value;
+var Button = document.getElementById('submit_btn');
+Button.onclick = function(){
+    var names = ['Me','You','Everyone'];
+    var list = '';
+    for(var i=0; i<names.length; i++){
+        list+='<li>'+names[i]+'</li>';
+    }
+    var ol=document.getElementById('Name List');
+    ol.InnerHTML=list;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
