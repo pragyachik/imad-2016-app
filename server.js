@@ -76,9 +76,9 @@ app.get('/ui/main.js', function (req, res) {
 });
 
 var counter=0;
-app.get('/c',function(req, res){
+app.get('/counter',function(req, res){
     counter=counter+1;
-    res.send('Me');
+    res.send(counter.toString());
 });
 
 app.get('/:articleName',function(req, res){
